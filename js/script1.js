@@ -16,6 +16,129 @@ let let_feature5 = document.getElementById('feature5').style;
 let get_feature5 = window.getComputedStyle(document.getElementById('feature5'));
 var flag = true;
 
+    window.onload = function(){
+        setInterval(() => {
+            if(get_feature2.left == "200px"){
+            
+                let_feature4.transition = "none";
+                let_feature4.left = "1200px";
+                setTimeout(() =>{let_feature4.transition = "all 1s";
+                let_feature1.left = "-600px";
+                let_feature2.left = "0px";
+                let_feature2.height = "300px";
+                let_feature2.width = "600px";
+                let_feature2.filter = "brightness(50%)";
+                let_feature2.top = "50px";
+                let_feature2.zIndex = "1";
+                let_feature3.left = "200px";
+                let_feature3.height = "400px";
+                let_feature3.width = "800px";
+                let_feature3.filter = "brightness(100%)";
+                let_feature3.zIndex = "2";
+                let_feature3.top = "0px";
+                let_feature4.left = "600px";
+                let_feature4.zIndex = "1";
+                document.getElementById('dot').style.left = "520px";
+            },1);
+                
+                }
+                if(get_feature3.left == "200px"){
+                    
+                    let_feature5.transition = "none";
+                    let_feature5.left = "1200px";
+                    setTimeout(() =>{let_feature5.transition = "all 1s";
+                    let_feature2.left = "-600px";
+                    let_feature3.left = "0px";
+                    let_feature3.height = "300px";
+                    let_feature3.width = "600px";
+                    let_feature3.filter = "brightness(50%)";
+                    let_feature3.top = "50px";
+                    let_feature3.zIndex = "1";
+                    let_feature4.left = "200px";
+                    let_feature4.height = "400px";
+                    let_feature4.width = "800px";
+                    let_feature4.filter = "brightness(100%)";
+                    let_feature4.zIndex = "2";
+                    let_feature4.top = "0px";
+                    let_feature5.left = "600px";
+                    let_feature5.zIndex = "1";
+                },1);
+                    document.getElementById('dot').style.left = "570px";
+                    }
+                if(get_feature4.left == "200px"){
+                    
+                    let_feature1.transition = "none";
+                    let_feature1.left = "1200px";
+                    setTimeout(() =>{let_feature1.transition = "all 1s";
+                    let_feature3.left = "-600px";
+                    let_feature4.left = "0px";
+                    let_feature4.height = "300px";
+                    let_feature4.width = "600px";
+                    let_feature4.filter = "brightness(50%)";
+                    let_feature4.top = "50px";
+                    let_feature4.zIndex = "1";
+                    let_feature5.left = "200px";
+                    let_feature5.height = "400px";
+                    let_feature5.width = "800px";
+                    let_feature5.filter = "brightness(100%)";
+                    let_feature5.zIndex = "2";
+                    let_feature5.top = "0px";
+                    let_feature1.left = "600px";
+                    let_feature1.zIndex = "1";
+                    document.getElementById('dot').style.left = "620px";
+                },1);
+                    
+                    }
+                    if(get_feature5.left == "200px"){
+                    
+                        let_feature2.transition = "none";
+                        let_feature2.left = "1200px";
+                        setTimeout(() =>{let_feature2.transition = "all 1s";
+                        let_feature4.left = "-600px";
+                        let_feature5.left = "0px";
+                        let_feature5.height = "300px";
+                        let_feature5.width = "600px";
+                        let_feature5.filter = "brightness(50%)";
+                        let_feature5.top = "50px";
+                        let_feature5.zIndex = "1";
+                        let_feature1.left = "200px";
+                        let_feature1.height = "400px";
+                        let_feature1.width = "800px";
+                        let_feature1.filter = "brightness(100%)";
+                        let_feature1.zIndex = "2";
+                        let_feature1.top = "0px";
+                        let_feature2.left = "600px";
+                        let_feature2.zIndex = "1";
+                        document.getElementById('dot').style.left = "670px";
+                    },1);
+                        
+                        }
+                        if(get_feature1.left == "200px"){
+                    
+                            let_feature3.transition = "none";
+                            let_feature3.left = "1200px";
+                            setTimeout(() =>{let_feature3.transition = "all 1s";
+                            let_feature5.left = "-600px";
+                            let_feature1.left = "0px";
+                            let_feature1.height = "300px";
+                            let_feature1.width = "600px";
+                            let_feature1.filter = "brightness(50%)";
+                            let_feature1.top = "50px";
+                            let_feature1.zIndex = "1";
+                            let_feature2.left = "200px";
+                            let_feature2.height = "400px";
+                            let_feature2.width = "800px";
+                            let_feature2.filter = "brightness(100%)";
+                            let_feature2.zIndex = "2";
+                            let_feature2.top = "0px";
+                            let_feature3.left = "600px";
+                            let_feature3.zIndex = "1";
+                        },1);
+                        document.getElementById('dot').style.left = "470px";
+                            }
+        }, 2000);
+    }    
+
     function judge(){
         document.getElementById('Tartaglia').addEventListener('transitionend',function(){
             flag = true;
